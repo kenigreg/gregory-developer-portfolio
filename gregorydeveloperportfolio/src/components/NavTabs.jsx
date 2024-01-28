@@ -6,7 +6,7 @@ function NavTabs(props) {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
             <a className="navbar-brand" href="#home">
-             <img src="src/images/MyPics.jpeg" alt="My Picture" width="80" height="100" className="d-inline-block align-text-bottom" />
+             <img src="./src/images/gregory_oghenah.jpg" alt="My Picture" width="30" height="24" className="d-inline-block align-text-bottom" />
                     Gregory Oghenah
             </a>
         <div className="collapse navbar-collapse" id="navbarNav">
