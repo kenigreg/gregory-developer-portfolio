@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './Header';
 import Home from './pages/Home';
-/*import About from './pages/About';
-import Blog from './pages/Blog';
+/*import ProjectGallery from './pages/ProjectGallery';
+import Project from './pages/Project';
 import Contact from './pages/Contact';*/
 
 function PortfolioContainer() {
@@ -14,8 +15,13 @@ function PortfolioContainer() {
 
     return (
         <div className="container-fluid">
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-          <Home handlePageChange={handlePageChange}/>
+            <Router>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+                <Routes>
+                    <Route path="/" element={<Home handlePageChange={handlePageChange}/>} />
+                </Routes>
+            </Router>
+          
         </div>
       );
     }

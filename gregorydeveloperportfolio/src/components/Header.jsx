@@ -1,17 +1,50 @@
 import React from 'react';
 
-function Header() {
-
+function Header(props) {
     return (
         <header>
-        <div>
-            <div className="container-fluid">
-              <h1 className="display-4">Gregory Oghenah</h1>
-              <p className="lead">I am a diligent and versatile software developer who has recently graduated from a Frontend Web Development coding boot camp. I have good track-record of working in a team in fast-paced environments and able to manage own workload.</p>
-            </div>
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
+            <a className="navbar-brand" href="#home">
+             <img src="./src/images/gregory_oghenah.jpg" alt="My Picture" width="30" height="24" className="d-inline-block align-text-bottom" />
+                    Gregory Oghenah
+            </a>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                            <a
+                                href="#home"
+                                onClick={() => props.handlePageChange('Home')}
+                                className="nav-link">
+                                Home</a>
+                </li>
+                <li className="nav-item">
+                            <a
+                                href="#project gallery"
+                                onClick={() => props.handlePageChange('Project Gallery')}
+                                className="nav-link">
+                                Project Gallery</a>
+                </li>
+                <li className="nav-item">
+                            <a
+                                href="#project"
+                                onClick={() => props.handlePageChange('Project')}
+                                className="nav-link">
+                                Project</a>
+                </li>
+                <li className="nav-item">
+                            <a
+                                href="#contact"
+                                onClick={() => props.handlePageChange('Contact')}
+                                className="nav-link">
+                                Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    )
+        </div>
+            </nav>
+            </header>
+        );
 }
-
+    
 export default Header;
