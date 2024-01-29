@@ -19,7 +19,6 @@ function ProjectGallery(props) {
                 </div>
                 </div>
             </div>
-           
     )
 }
 
