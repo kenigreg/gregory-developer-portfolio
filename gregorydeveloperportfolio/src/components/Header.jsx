@@ -20,8 +20,8 @@ function Header(props) {
                 </li>
                 <li className="nav-item">
                             <a
-                                href="#project gallery"
-                                onClick={() => props.handlePageChange('Project Gallery')}
+                                href="#gallery"
+                                onClick={() => props.handlePageChange('Gallery')}
                                 className="nav-link">
                                 Project Gallery</a>
                 </li>

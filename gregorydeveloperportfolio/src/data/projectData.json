@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Team Profile Generator",
+        "webpage": "Null",
+        "github": "https://github.com/kenigreg/team-profile-generator",
+        "mockup": "src/images/Devteam.png"
+    },
+    {
+        "name": "Readme Creator",
+        "webpage": "Null",
+        "github": "https://github.com/kenigreg/readme-creator",
+        "mockup": "src/images/readme.png"
+    },
+    {
+        "name": "FlickFinder",
+        "webpage": "https://dezmondo7.github.io/movie-recommender/",
+        "github": "https://github.com/Dezmondo7/movie-recommender",
+        "mockup": "src/images/FlickFinder.png"
+    },
+    {
+        "name": "Workday Scheduler",
+        "webpage": "https://kenigreg.github.io/Work-Day-Scheduler/",
+        "github": "https://github.com/kenigreg/Work-Day-Scheduler",
+        "mockup": "src/images/05-third-party-apis-homework-demo.gif"
+    },
+    {
+        "name": "Password Generator",
+        "webpage": "https://kenigreg.github.io/Password-Generator/",
+        "github": "https://github.com/kenigreg/Password-Generator",
+        "mockup": "src/images/password_generator.png"
+    },
+    {
+        "name": "Web Accessibility",
+        "webpage": "https://kenigreg.github.io/web-accessibility-site/",
+        "github": "https://github.com/kenigreg/web-accessibility-site",
+        "mockup": "src/images/web_accessibility.png"
+    }
+]
+
+
+
+
