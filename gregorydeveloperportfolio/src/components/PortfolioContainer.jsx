@@ -8,6 +8,7 @@ import projectData from '../data/projectData.json';
 import ProjectGallery from './pages/ProjectGallery';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -34,6 +35,7 @@ function PortfolioContainer() {
                     {projectData.map((data, index) => (<Project name={data.name} key={index} mockup={data.mockup} webpage={data.webpage} github={data.github} />))} 
                 </Wrapper>
                 <Contact />
+                <Footer />
             </Router>
         </div>
       );
