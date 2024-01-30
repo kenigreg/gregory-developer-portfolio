@@ -1,0 +1,20 @@
+#contact-me {
+    margin-top: 50px !important;
+    margin-bottom: 1px !important;
+    background-color: lightblue !important;
+    height: 200px !important;
+}
+
+.grid-items h2 {
+    text-align: center !important;
+    
+    
+}
+
+.nameSummary {
+    margin-left: 200px !important;
+}
+
+.grid-places {
+    align-items: right !important;
+}

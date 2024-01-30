@@ -1,9 +1,10 @@
 import React from "react";
+import './project.css';
 
 function Project(props) {
     //const mainProject = projectData.map()
     return (
-        <div className="card mb-3" style={{maxWidth: "540px"}}>
+        <div className="card mb-3 projectCard" style={{maxWidth: "540px"}}>
         <div className="row g-0">
         <div className="col-md-4">
         <img src={props.mockup} className="img-fluid rounded-start" alt={props.name}/>

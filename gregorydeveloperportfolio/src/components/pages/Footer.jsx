@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 
 function Footer() {
 
@@ -7,10 +8,10 @@ function Footer() {
         <footer id="contact-me">
         <div className="container-fluid">
         <div className="row">
-        <div className="col-2 grid-items">
+        <div className="grid-items">
         <h2>Social</h2>
         </div>
-        <div className="col-10 grid-places">
+        <div className="grid-places">
         <ul className="nav justify-content-center">
             <li className="nav-item">
             <a className="nav-link" href="mailto:kenigreg@yahoo.co.uk" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-at" viewBox="0 0 16 16">
@@ -32,7 +33,7 @@ function Footer() {
     </div>
     </div>
                 </div>
-                <div>
+                <div className="nameSummary">
                     <h2>Gregory Oghenah</h2>
                     <p>A versatile Frontend Web Developer <br/> Specializing in developing React Applications.</p>
                 </div>

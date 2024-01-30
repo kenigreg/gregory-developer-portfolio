@@ -1,0 +1,8 @@
+.galleryRow {
+    margin-top: 30px !important;
+    display: inline-flex !important;
+    margin: 1rem !important;
+    position: relative !important;
+    width: 325px !important;
+    margin-left: 50px !important;
+}
