@@ -1,7 +1,6 @@
 import React from "react";
 
 function Project(props) {
-    console.log(props);
     //const mainProject = projectData.map()
     return (
         <div className="card mb-3" style={{maxWidth: "540px"}}>
