@@ -4,7 +4,7 @@ import Wrapper from './Wrapper';
 import Title from './Title';
 import Header from './Header';
 import Home from './pages/Home';
-import projectData from 'src/data/projectData.json';
+import projectData from '..projectData.json';
 import ProjectGallery from './pages/ProjectGallery';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
