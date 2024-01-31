@@ -3,7 +3,7 @@
         "name": "Team Profile Generator",
         "webpage": "Null",
         "github": "https://github.com/kenigreg/team-profile-generator",
-        "mockup": "src/images/Devteam.png"
+        "mockup": "./images/Devteam.png"
     },
     {
         "name": "Readme Creator",
